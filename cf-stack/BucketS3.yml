@@ -17,4 +17,4 @@ Resources:
     Type: AWS::SSM::Parameter
     Properties: 
     Name: BucketName
-    Value: !GetAtt BucketS3.Name
+    Value: !ref BucketS3
